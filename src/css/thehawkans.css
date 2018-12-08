@@ -5,6 +5,7 @@ html{
 body{
   background-color: #000;
   height: 100%;
+  min-width: 320px;
 }
 
 #root{
@@ -19,23 +20,72 @@ body{
   height: 100%;
 }
 
+
 /* menu */
-div.thehawkans_menu{
+div.thehawkans-menu{
   background-color: rgba(0,0,0,1.0);
 }
-
-/* home video */
-video.home-video{
-  object-fit: cover;
+div.thehawkans-menu nav.navbar{
+  padding-left: 0;
+  padding-right: 0;
 }
+div.thehawkans-menu nav.navbar button.navbar-toggler:focus{
+  outline: none
+}
+div.thehawkans-menu nav.navbar li a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 0;
+  margin: auto 10px;
+}
+div.thehawkans-menu nav.navbar li a:hover{
+  border-bottom: solid 1px #c13100;
+}
+div.thehawkans-menu nav.navbar li a.active{
+  color: #c13100;
+}
+div.thehawkans-menu nav.navbar li a.active:hover{
+  color: #c13100;
+  border-bottom: none;
+}
+
 
 /* pages */
 div.thehawkans-page{
   flex: 1;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#151515+0,050505+100 */
-  background: rgb(21,21,21); /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, rgba(21,21,21,1) 0%, rgba(5,5,5,1) 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(21,21,21,1) 0%,rgba(5,5,5,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, rgba(21,21,21,1) 0%,rgba(5,5,5,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151515', endColorstr='#050505',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222222+0,050505+100 */
+  background: rgb(34,34,34); /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(34,34,34,1) 0%, rgba(5,5,5,1) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(34,34,34,1) 0%,rgba(5,5,5,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(34,34,34,1) 0%,rgba(5,5,5,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#050505',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+div.thehawkans-page > div.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+
+/* contents */
+p.slogan{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #c13100;
+  padding: 15px 0;
+}
+@media (min-width: 768px){
+  p.slogan{
+    font-size: 1.25rem;
+  }
+}
+img{
+  width: 100%;
+  height: auto;
 }
