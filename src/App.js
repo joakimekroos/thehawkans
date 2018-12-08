@@ -6,7 +6,7 @@ import Content from './components/Content';
 class App extends Component {
   render (){
     return (
-      <div className="app">
+      <div className="thehawkans">
         <Menu />
         <Content />
       </div>
