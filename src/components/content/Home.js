@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 
 const Home = () =>{
   return(
-    <div className="thehawkans-page">
+    <div className="thehawkans-content">
       <Container>
         <img
           alt="The Hawkans"

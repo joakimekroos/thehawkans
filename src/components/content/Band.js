@@ -2,7 +2,7 @@ import React from 'react'
 
 const Band = () =>{
   return(
-    <div className="thehawkans-page">
+    <div className="thehawkans-content">
       Band
     </div>
   )

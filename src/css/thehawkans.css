@@ -52,7 +52,7 @@ div.thehawkans-menu nav.navbar li a.active:hover{
 
 
 /* pages */
-div.thehawkans-page{
+div.thehawkans-content{
   flex: 1;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#151515+0,050505+100 */
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222222+0,050505+100 */
@@ -63,7 +63,7 @@ div.thehawkans-page{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#050505',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-div.thehawkans-page > div.container{
+div.thehawkans-content > div.container{
   display: flex;
   flex-direction: column;
   align-items: center;
