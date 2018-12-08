@@ -1,9 +1,15 @@
 import React from 'react'
+import { Container } from 'reactstrap';
 
 const Music = () =>{
   return(
     <div className="thehawkans-content">
-      Music
+      <Container>
+        <p
+          className="slogan">
+          The Music
+        </p>
+      </Container>
     </div>
   )
 }

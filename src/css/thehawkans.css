@@ -54,13 +54,12 @@ div.thehawkans-menu nav.navbar li a.active:hover{
 /* pages */
 div.thehawkans-content{
   flex: 1;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#151515+0,050505+100 */
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#222222+0,050505+100 */
-  background: rgb(34,34,34); /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, rgba(34,34,34,1) 0%, rgba(5,5,5,1) 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(34,34,34,1) 0%,rgba(5,5,5,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, rgba(34,34,34,1) 0%,rgba(5,5,5,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222222', endColorstr='#050505',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333333+0,050505+100 */
+  background: rgb(51,51,51); /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(51,51,51,1) 0%, rgba(5,5,5,1) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(51,51,51,1) 0%,rgba(5,5,5,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(51,51,51,1) 0%,rgba(5,5,5,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#050505',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 div.thehawkans-content > div.container{

@@ -1,9 +1,15 @@
 import React from 'react'
+import { Container } from 'reactstrap';
 
 const Contact = () =>{
   return(
     <div className="thehawkans-content">
-      Contact
+      <Container>
+        <p
+          className="slogan">
+          Get in touch
+        </p>
+      </Container>
     </div>
   )
 }
