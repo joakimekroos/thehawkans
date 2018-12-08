@@ -21,7 +21,7 @@ export default class Menu extends Component{
 
   render(){
     return (
-      <div className="thehawkans_menu">
+      <div className="thehawkans-menu">
         <Container>
           <Navbar dark expand="md">
             <NavbarToggler onClick={this.toggle} />
