@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/thehawkans.css';
@@ -8,8 +8,8 @@ import './css/thehawkans.css';
 import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
     <App />
-  </BrowserRouter>,
+  </Router>,
   document.getElementById('root')
 );
