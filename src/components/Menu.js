@@ -46,7 +46,7 @@ export default class Menu extends Component{
                   <NavLink
                   to="/music"
                   activeClassName="active">
-                  The Music
+                  Audio & Video
                   </NavLink>
                 </NavItem>
                 <NavItem>

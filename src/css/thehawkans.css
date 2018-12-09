@@ -37,7 +37,10 @@ div.thehawkans-menu nav.navbar li a{
   text-decoration: none;
   text-transform: uppercase;
   padding: 5px 0;
-  margin: auto 10px;
+  margin: auto 30px;
+}
+div.thehawkans-menu nav.navbar li a:first-child{
+  margin-left: 0;
 }
 div.thehawkans-menu nav.navbar li a:hover{
   border-bottom: solid 1px #c13100;
@@ -56,7 +59,7 @@ div.thehawkans-content{
   flex: 1;
   display: flex;
   align-items: center;
-  padding: 30px 0;
+  padding: 60px 0;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333333+0,050505+100 */
   background: rgb(51,51,51); /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, rgba(51,51,51,1) 0%, rgba(5,5,5,1) 100%); /* FF3.6-15 */
@@ -111,4 +114,12 @@ img.portrait{
     column-gap: 30px;
     text-align: justify;
   }
+}
+hr{
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border: dashed 1px rgba(255,255,255,.1);
+}
+.embed-responsive iframe{
+  background: #000;
 }
