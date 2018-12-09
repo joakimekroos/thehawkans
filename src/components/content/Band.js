@@ -28,7 +28,7 @@ const Band = () =>{
               <span className="emphasis">Drums:</span> Viktor "Massive Attack" Wolff<br />
             </p>
             <p>
-              <span className="emphasis">Former members)</span><br />
+              <small className="text-uppercase">Former members</small><br />
               <span className="emphasis">Guitar:</span> Pekka "Täppisoolo" Tiainen (fm)<br />
               <span className="emphasis">Drums:</span> Johan "Top Gun" Sannholm (fm)<br />
             </p>
