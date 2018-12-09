@@ -44,13 +44,6 @@ export default class Menu extends Component{
                 </NavItem>
                 <NavItem>
                   <NavLink
-                  to="/people"
-                  activeClassName="active">
-                  The People
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink
                   to="/music"
                   activeClassName="active">
                   The Music
