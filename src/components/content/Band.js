@@ -22,7 +22,7 @@ const Band = () =>{
               We are all 30-something years old which makes us both experienced and young at the same time! That's just amazing!!
             </p>
             <p>
-              <small className="text-uppercase label">Current members</small><br />
+              <small className="text-uppercase">Current members</small><br />
               <span className="emphasis">Vocals:</span> Olli "Baumheimer" Roiha <small>(fm)</small><br />
               <span className="emphasis">Guitar:</span> Henrik "Lethal Force" Castell <small>(fm)</small><br />
               <span className="emphasis">Guitar:</span> Julius "Lethal Strike" Uusikylä<br />
@@ -30,7 +30,7 @@ const Band = () =>{
               <span className="emphasis">Drums:</span> Viktor "Massive Attack" Wolff<br />
             </p>
             <p>
-              <small className="text-uppercase label">Former members</small><br />
+              <small className="text-uppercase">Former members</small><br />
               <span className="emphasis">Guitar:</span> Pekka "Täppisoolo" Tiainen <small>(fm)</small><br />
               <span className="emphasis">Drums:</span> Johan "Top Gun" Sannholm <small>(fm)</small><br />
             </p>
