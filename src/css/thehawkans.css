@@ -54,7 +54,9 @@ div.thehawkans-menu nav.navbar li a.active:hover{
 /* pages */
 div.thehawkans-content{
   flex: 1;
-  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333333+0,050505+100 */
   background: rgb(51,51,51); /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover, rgba(51,51,51,1) 0%, rgba(5,5,5,1) 100%); /* FF3.6-15 */
@@ -80,20 +82,18 @@ h1{
 }
 p{
   color: #c0c0c0;
+  line-height: 1.75;
 }
 .emphasis{
   color: #c13100;
 }
-p.slogan{
-  text-transform: uppercase;
-  font-weight: 600;
+.slogan{
   font-size: 1rem;
-  color: #c13100;
   padding: 15px 0;
   margin: 0;
 }
 @media (min-width: 768px){
-  p.slogan{
+  .slogan{
     font-size: 1.25rem;
   }
 }

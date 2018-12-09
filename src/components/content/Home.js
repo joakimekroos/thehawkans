@@ -9,10 +9,10 @@ const Home = () =>{
           alt="The Hawkans"
           src={require("./img/logo_24bit.png")}
         />
-        <p
+        <h1
         className="slogan">
         Partyband for every occasion
-        </p>
+        </h1>
         <div className="col-xs-12 ml-auto mr-auto thehawkans-widetext">
           <p>
             The Hawkans is a party/cover band from Helsinki.
