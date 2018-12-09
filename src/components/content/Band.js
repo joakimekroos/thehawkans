@@ -17,20 +17,22 @@ const Band = () =>{
             <h1>The Band</h1>
             <p>
               The members of The Hawkans are from different parts of southern Finland but almost everyone now lives in Helsinki area.
+            </p>
+            <p>
               We are all 30-something years old which makes us both experienced and young at the same time! That's just amazing!!
             </p>
             <p>
-              <span className="emphasis">Vocals:</span> Olli "Baumheimer" Roiha (fm)<br />
-              <span className="emphasis">Guitar:</span> Henrik "Lethal Force" Castell (fm)<br />
+              <small className="text-uppercase label">Current members</small><br />
+              <span className="emphasis">Vocals:</span> Olli "Baumheimer" Roiha <small>(fm)</small><br />
+              <span className="emphasis">Guitar:</span> Henrik "Lethal Force" Castell <small>(fm)</small><br />
               <span className="emphasis">Guitar:</span> Julius "Lethal Strike" Uusikylä<br />
-              <span className="emphasis">Bass:</span> Joakim "Gögu" Ekroos (fm)<br />
-
+              <span className="emphasis">Bass:</span> Joakim "Gögu" Ekroos <small>(fm)</small><br />
               <span className="emphasis">Drums:</span> Viktor "Massive Attack" Wolff<br />
             </p>
             <p>
-              <small className="text-uppercase">Former members</small><br />
-              <span className="emphasis">Guitar:</span> Pekka "Täppisoolo" Tiainen (fm)<br />
-              <span className="emphasis">Drums:</span> Johan "Top Gun" Sannholm (fm)<br />
+              <small className="text-uppercase label">Former members</small><br />
+              <span className="emphasis">Guitar:</span> Pekka "Täppisoolo" Tiainen <small>(fm)</small><br />
+              <span className="emphasis">Drums:</span> Johan "Top Gun" Sannholm <small>(fm)</small><br />
             </p>
             <p><small>fm = founding member</small></p>
           </div>
