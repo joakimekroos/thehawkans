@@ -50,10 +50,11 @@ div.thehawkans-menu nav.navbar li a:hover{
 }
 div.thehawkans-menu nav.navbar li a.active{
   color: #c13100;
+  transition: .5s border-color;
 }
 div.thehawkans-menu nav.navbar li a.active:hover{
   color: #c13100;
-  border-bottom: none;
+  border-color: rgba(193, 49, 0, 0);
 }
 
 
@@ -81,6 +82,10 @@ div.thehawkans-content > div.container{
 
 
 /* contents */
+img.logo{
+  max-width: 430px;
+  margin-bottom: 30px;
+}
 h1{
   font: 1.5rem "Chivo", sans-serif;
   text-transform: uppercase;
@@ -100,12 +105,15 @@ p a:hover{
   color: #fff;
   text-decoration: none;
 }
+.contact p{
+  white-space: nowrap;
+}
 .emphasis{
   color: #c13100;
 }
 .slogan{
   font-size: 1rem;
-  margin: 15px 0;
+  margin: 15px 0 45px 0;
 }
 .label{
   border-bottom: solid 1px #c13100;
@@ -123,16 +131,11 @@ img.portrait{
   height: 100%;
   width: auto;
 }
-@media (min-width: 992px){
+@media (min-width: 1200px){
   .thehawkans-widetext{
     column-count: 2;
     column-gap: 30px;
     text-align: justify;
-  }
-}
-@media (min-width: 1200px){
-  .thehawkans-widetext{
-    column-count: 3;
   }
 }
 hr{

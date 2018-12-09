@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 
 const Contact = () =>{
   return(
-    <div className="thehawkans-content">
+    <div className="thehawkans-content contact">
       <Container>
         <div className="row">
           <div className="col-md-6">
