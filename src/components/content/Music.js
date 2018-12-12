@@ -1,10 +1,17 @@
 import React from 'react'
 import { Container } from 'reactstrap';
 import YouTube from 'react-youtube';
+import MetaTags from 'react-meta-tags';
 
 const Music = () =>{
   return(
     <div className="thehawkans-content">
+      <MetaTags>
+        <title>The Hawkans | Music</title>
+        <meta name="description" content="Partyband for every occasion." />
+        <meta property="og:title" content="The Hawkans | Music" />
+        <meta property="og:image" content="./thehawkans_cover.png" />
+      </MetaTags>
       <Container>
         <div className="row">
           <div className="col-md-12">

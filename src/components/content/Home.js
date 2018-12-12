@@ -1,9 +1,16 @@
 import React from 'react'
 import { Container } from 'reactstrap';
+import MetaTags from 'react-meta-tags';
 
 const Home = () =>{
   return(
     <div className="thehawkans-content">
+      <MetaTags>
+        <title>The Hawkans</title>
+        <meta name="description" content="Partyband for every occasion." />
+        <meta property="og:title" content="The Hawkans | Partyband for every occasion" />
+        <meta property="og:image" content="./thehawkans_cover.png" />
+      </MetaTags>
       <Container>
         <div className="row">
           <div className="col-xs-12">
