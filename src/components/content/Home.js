@@ -9,7 +9,7 @@ const Home = () =>{
         <title>The Hawkans</title>
         <meta name="description" content="Partyband for every occasion." />
         <meta property="og:title" content="The Hawkans | Partyband for every occasion" />
-        <meta property="og:image" content="./thehawkans_cover.png" />
+        <meta property="og:image" content="https://www.thehawkans.com/thehawkans_cover.png" />
       </MetaTags>
       <Container>
         <div className="row">
