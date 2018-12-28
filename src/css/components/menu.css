@@ -17,6 +17,14 @@ div.thehawkans-menu nav.navbar li a{
   border-bottom: solid 1px rgba(193, 49, 0, 0);
   transition: .5s border-color;
 }
+@media (max-width: 768px){
+  div.thehawkans-menu nav.navbar ul.navbar-nav{
+    margin-top: 10px;
+  }
+  div.thehawkans-menu nav.navbar li{
+    padding: 5px 0;
+  }
+}
 div.thehawkans-menu nav.navbar li a:first-child{
   margin-left: 0;
 }
