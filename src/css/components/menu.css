@@ -1,0 +1,34 @@
+div.thehawkans-menu{
+  background-color: rgba(0,0,0,1.0);
+}
+div.thehawkans-menu nav.navbar{
+  padding-left: 0;
+  padding-right: 0;
+}
+div.thehawkans-menu nav.navbar button.navbar-toggler:focus{
+  outline: none
+}
+div.thehawkans-menu nav.navbar li a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 0 2px 0;
+  margin: auto 30px;
+  border-bottom: solid 1px rgba(193, 49, 0, 0);
+  transition: .5s border-color;
+}
+div.thehawkans-menu nav.navbar li a:first-child{
+  margin-left: 0;
+}
+div.thehawkans-menu nav.navbar li a:hover{
+  border-color: rgba(193, 49, 0, 1);
+  transition: .2s border-color;
+}
+div.thehawkans-menu nav.navbar li a.active{
+  color: #c13100;
+  transition: .5s border-color;
+}
+div.thehawkans-menu nav.navbar li a.active:hover{
+  color: #c13100;
+  border-color: rgba(193, 49, 0, 0);
+}
