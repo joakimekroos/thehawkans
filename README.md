@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Deployed on [Netlify](https://www.netlify.com/).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe5b9e03-1adf-40a4-b323-bebf2eecf3f6/deploy-status)](https://app.netlify.com/sites/thehawkans/deploys)
+
 # The Hawkans
 
 ## Install
@@ -20,4 +22,3 @@ yarn start
 ```
 yarn build
 ```
-
