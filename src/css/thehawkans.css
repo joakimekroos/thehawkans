@@ -20,6 +20,10 @@ body{
   min-height: 100%;
 }
 
+/* typo */
+small{
+  opacity: .6;
+}
 
 /* menu */
 div.thehawkans-menu{
