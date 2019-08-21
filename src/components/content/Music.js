@@ -21,11 +21,6 @@ const Music = () =>{
                 videoId="hMd7JB3TY-E"
               />
             </div>
-            <div class="embed-responsive embed-responsive-16by9">
-              <YouTube
-                videoId="mD8aIMe6HX8"
-              />
-            </div>
             <hr />
             <h1>Original Material</h1>
             <p>We've also written some original material, please have a listen!</p>
