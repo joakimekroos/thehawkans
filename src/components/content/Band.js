@@ -55,7 +55,7 @@ const Band = () =>{
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>Our party playlist includes</h1>
-            <p><small>..but is not limited to</small></p>
+            <p><small>...but is not limited to</small></p>
             <div className="thehawkans-widetext">
                 <p><span className="emphasis">The Black Keys </span>Lonely Boy</p>
                 <p><span className="emphasis">Cameo  </span>Word Up</p>
