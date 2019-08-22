@@ -61,7 +61,7 @@ const Band = () =>{
                 <p><span className="emphasis">Cameo  </span>Word Up</p>
                 <p><span className="emphasis">Midnight Oil </span>beds are burning</p>
                 <p><span className="emphasis">Billy Idol </span>Rebel Yell</p>
-                <p><span className=" emphasis">Roxette </span>Sleepig in My Car</p>
+                <p><span className="emphasis">Roxette </span>Sleepig in My Car</p>
                 <p><span className="emphasis">Joan Jett </span>I Love Rock and Roll</p>
                 <p><span className="emphasis">Avicii </span>Hey brother</p>
                 <p><span className="emphasis">Pink Floyd  </span>The Wall 1&2</p>
