@@ -15,15 +15,14 @@ const Music = () =>{
       <Container>
         <div className="row">
           <div className="col-md-12">
-            <h1>Videos</h1>
+            <h1>Video</h1>
             <div class="embed-responsive embed-responsive-16by9">
               <YouTube
                 videoId="hMd7JB3TY-E"
               />
             </div>
             <hr />
-            <h1>Original Material</h1>
-            <p>We've also written some original material, please have a listen!</p>
+            <h1>Audio</h1>
             <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/350511058&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251314204&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/250818400&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>

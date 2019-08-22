@@ -72,7 +72,6 @@ const Band = () =>{
                 <p><span className="emphasis">Dingo </span>Levoton tuhkimo</p>
                 <p><span className="emphasis">Neljä baritonia </span>Popmusiikkia</p>
             </div>
-            <p>...and more. And yes, we do take requests!</p>
           </div>
         </div>
       </Container>
