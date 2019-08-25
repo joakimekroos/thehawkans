@@ -15,6 +15,10 @@ p{
   color: #d0d0d0;
   line-height: 1.5;
 }
+.front p{
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
 p a{
   color: #d0d0d0;
 }
