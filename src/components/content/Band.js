@@ -4,7 +4,7 @@ import MetaTags from 'react-meta-tags';
 
 const Band = () =>{
   return(
-    <div className="thehawkans-content">
+    <div className="thehawkans-content band">
       <MetaTags>
         <title>The Hawkans | Band</title>
         <meta name="description" content="Partyband for every occasion." />

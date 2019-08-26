@@ -23,3 +23,6 @@ div.thehawkans-content > div.container{
   justify-content: center;
   height: 100%;
 }
+div.thehawkans-content.band > div.container{
+  align-items: stretch;
+}
