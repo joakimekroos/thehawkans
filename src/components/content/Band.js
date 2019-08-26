@@ -56,12 +56,12 @@ const Band = () =>{
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>Our party playlist includes</h1>
             <p><small>...but is not limited to</small></p>
-            <div className="thehawkans-widetext">
+            <div className="thehawkans-extrawidetext">
                 <p><span className="emphasis">The Black Keys </span>Lonely Boy</p>
                 <p><span className="emphasis">Cameo  </span>Word Up</p>
                 <p><span className="emphasis">Midnight Oil </span>beds are burning</p>
                 <p><span className="emphasis">Billy Idol </span>Rebel Yell</p>
-                <p><span className="emphasis">Roxette </span>Sleepig in My Car</p>
+                <p><span className="emphasis">Roxette </span>Sleeping in My Car</p>
                 <p><span className="emphasis">Joan Jett </span>I Love Rock and Roll</p>
                 <p><span className="emphasis">Avicii </span>Hey brother</p>
                 <p><span className="emphasis">Pink Floyd  </span>The Wall 1&2</p>
@@ -71,6 +71,7 @@ const Band = () =>{
                 <p><span className="emphasis">Pelle Miljoona </span>Tahdon rakastella sinua</p>
                 <p><span className="emphasis">Dingo </span>Levoton tuhkimo</p>
                 <p><span className="emphasis">Neljä baritonia </span>Popmusiikkia</p>
+                <p><span className="emphasis">The Cranberries </span>Zombie</p>
             </div>
           </div>
         </div>

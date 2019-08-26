@@ -59,6 +59,11 @@ img.portrait{
     column-gap: 30px;
     text-align: justify;
   }
+  .thehawkans-extrawidetext{
+    column-count: 3;
+    column-gap: 30px;
+    text-align: justify;
+  }
 }
 hr{
   margin-top: 30px;
