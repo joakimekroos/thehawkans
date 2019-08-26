@@ -24,19 +24,19 @@ const Contact = () =>{
           <div className="col-md-6">
             <p>
               <span className="emphasis">www: </span>
-              <a href="//thehawkans.com" target="_blank">thehawkans.com</a>
+              <a href="//thehawkans.com" target="_blank" rel="noopener noreferrer">thehawkans.com</a>
             </p>
             <p>
               <span className="emphasis">facebook: </span>
-              <a href="//facebook.com/thehawkans" target="_blank">facebook.com/thehawkans</a>
+              <a href="//facebook.com/thehawkans" target="_blank" rel="noopener noreferrer">facebook.com/thehawkans</a>
             </p>
             <p>
               <span className="emphasis">soundcloud: </span>
-              <a href="//soundcloud.com/thehawkans" target="_blank">soundcloud.com/thehawkans</a>
+              <a href="//soundcloud.com/thehawkans" target="_blank" rel="noopener noreferrer">soundcloud.com/thehawkans</a>
           </p>
             <p>
               <span className="emphasis">spotify: </span>
-              <a href="//open.spotify.com/artist/1sz1l9exwoVnqDkrYvyLIu" target="_blank">The Hawkans on spotify</a>
+              <a href="//open.spotify.com/artist/1sz1l9exwoVnqDkrYvyLIu" target="_blank" rel="noopener noreferrer">The Hawkans on spotify</a>
             </p>
           </div>
         </div>
