@@ -17,7 +17,7 @@ const Band = () =>{
             <img
               className=""
               alt="The Hawnaks 2017"
-              src={require("./img/theband.jpg")}
+              src={require("../../images/theband.jpg")}
             />
           </div>
           <div className="col-md-7 mr-auto">
@@ -47,7 +47,7 @@ const Band = () =>{
             <img
               className=""
               alt="The Hawnaks 2017"
-              src={require("./img/theband.jpg")}
+              src={require("../../images/theband.jpg")}
             />
           </div>
         </div>

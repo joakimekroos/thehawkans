@@ -17,7 +17,7 @@ const Home = () =>{
             <img
               className="logo"
               alt="The Hawkans"
-              src={require("./img/logo_24bit.png")}
+              src={require("../../images/logo_24bit.png")}
             />
           </div>
         </div>
