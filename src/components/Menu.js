@@ -39,14 +39,14 @@ export default class Menu extends Component{
                   <NavLink
                   to="/band"
                   activeClassName="active">
-                  The Band
+                  The Band & Music
                   </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink
                   to="/music"
                   activeClassName="active">
-                  Audio & Video
+                  Original Material
                   </NavLink>
                 </NavItem>
                 <NavItem>

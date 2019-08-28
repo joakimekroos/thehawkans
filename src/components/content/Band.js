@@ -4,7 +4,7 @@ import MetaTags from 'react-meta-tags';
 
 const Band = () =>{
   return(
-    <div className="thehawkans-content">
+    <div className="thehawkans-content band">
       <MetaTags>
         <title>The Hawkans | Band</title>
         <meta name="description" content="Partyband for every occasion." />
@@ -17,7 +17,7 @@ const Band = () =>{
             <img
               className=""
               alt="The Hawnaks 2017"
-              src={require("./img/theband.jpg")}
+              src={require("../../images/theband.jpg")}
             />
           </div>
           <div className="col-md-7 mr-auto">
@@ -47,8 +47,32 @@ const Band = () =>{
             <img
               className=""
               alt="The Hawnaks 2017"
-              src={require("./img/theband.jpg")}
+              src={require("../../images/theband.jpg")}
             />
+          </div>
+        </div>
+        <hr />
+        <div className="row">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>Our party playlist includes</h1>
+            <p><small>...but is not limited to</small></p>
+            <div className="thehawkans-extrawidetext">
+                <p><span className="emphasis">The Black Keys </span>Lonely Boy</p>
+                <p><span className="emphasis">Cameo  </span>Word Up</p>
+                <p><span className="emphasis">Midnight Oil </span>beds are burning</p>
+                <p><span className="emphasis">Billy Idol </span>Rebel Yell</p>
+                <p><span className="emphasis">Roxette </span>Sleeping in My Car</p>
+                <p><span className="emphasis">Joan Jett </span>I Love Rock and Roll</p>
+                <p><span className="emphasis">Avicii </span>Hey brother</p>
+                <p><span className="emphasis">Pink Floyd  </span>The Wall 1&2</p>
+                <p><span className="emphasis">Survivor </span>Eye of the Tiger</p>
+                <p><span className="emphasis">Kenny Logins </span>Danger Zone</p>
+                <p><span className="emphasis">Alphaville </span>Big in Japan</p>
+                <p><span className="emphasis">Pelle Miljoona </span>Tahdon rakastella sinua</p>
+                <p><span className="emphasis">Dingo </span>Levoton tuhkimo</p>
+                <p><span className="emphasis">Neljä baritonia </span>Popmusiikkia</p>
+                <p><span className="emphasis">The Cranberries </span>Zombie</p>
+            </div>
           </div>
         </div>
       </Container>

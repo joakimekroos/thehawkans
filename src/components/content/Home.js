@@ -4,7 +4,7 @@ import MetaTags from 'react-meta-tags';
 
 const Home = () =>{
   return(
-    <div className="thehawkans-content">
+    <div className="thehawkans-content front">
       <MetaTags>
         <title>The Hawkans</title>
         <meta name="description" content="Partyband for every occasion." />
@@ -17,7 +17,7 @@ const Home = () =>{
             <img
               className="logo"
               alt="The Hawkans"
-              src={require("./img/logo_24bit.png")}
+              src={require("../../images/the-hawkans-clean-full-206x306cm.png")}
             />
           </div>
         </div>

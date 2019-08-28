@@ -12,11 +12,15 @@ h1{
   margin-bottom: 15px;
 }
 p{
-  color: #c0c0c0;
+  color: #d0d0d0;
   line-height: 1.5;
 }
+.front p{
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
 p a{
-  color: #c0c0c0;
+  color: #d0d0d0;
 }
 p a:hover{
   border-bottom: solid 1px #c13100;
@@ -52,6 +56,11 @@ img.portrait{
 @media (min-width: 1200px){
   .thehawkans-widetext{
     column-count: 2;
+    column-gap: 30px;
+    text-align: justify;
+  }
+  .thehawkans-extrawidetext{
+    column-count: 3;
     column-gap: 30px;
     text-align: justify;
   }
