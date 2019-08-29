@@ -15,7 +15,7 @@ const Contact = () =>{
         <div className="row">
           <div className="col-md-6">
             <p>
-              <span className="emphasis">@: </span>henrik.castell@gmail.com
+              <span className="emphasis">@: </span>thehawkans@gmail.com
             </p>
             <p>
               <span className="emphasis">#: </span>040 5300 125
