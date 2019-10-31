@@ -56,22 +56,22 @@ const Band = () =>{
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>Our party playlist includes</h1>
             <p><small>...but is not limited to</small></p>
-            <div className="thehawkans-extrawidetext">
-                <p><span className="emphasis">The Black Keys </span>Lonely Boy</p>
-                <p><span className="emphasis">Cameo  </span>Word Up</p>
-                <p><span className="emphasis">Midnight Oil </span>beds are burning</p>
-                <p><span className="emphasis">Billy Idol </span>Rebel Yell</p>
-                <p><span className="emphasis">Roxette </span>Sleeping in My Car</p>
-                <p><span className="emphasis">Joan Jett </span>I Love Rock and Roll</p>
-                <p><span className="emphasis">Avicii </span>Hey brother</p>
-                <p><span className="emphasis">Pink Floyd  </span>The Wall 1&2</p>
-                <p><span className="emphasis">Survivor </span>Eye of the Tiger</p>
-                <p><span className="emphasis">Kenny Logins </span>Danger Zone</p>
-                <p><span className="emphasis">Alphaville </span>Big in Japan</p>
-                <p><span className="emphasis">Pelle Miljoona </span>Tahdon rakastella sinua</p>
-                <p><span className="emphasis">Dingo </span>Levoton tuhkimo</p>
-                <p><span className="emphasis">Neljä baritonia </span>Popmusiikkia</p>
-                <p><span className="emphasis">The Cranberries </span>Zombie</p>
+            <div className="thehawkans-ultrawidetext">
+                <p class="spreadspan"><span className="emphasis">Billy Idol</span><span>Rebel Yell</span></p>
+                <p class="spreadspan"><span className="emphasis">Joan Jett</span><span>I Love Rock and Roll</span></p>
+                <p class="spreadspan"><span className="emphasis">The Black Keys</span><span>Lonely Boy</span></p>
+                <p class="spreadspan"><span className="emphasis">Survivor</span><span>Eye of the Tiger</span></p>
+                <p class="spreadspan"><span className="emphasis">Cameo</span><span>Word Up</span></p>
+                <p class="spreadspan"><span className="emphasis">Midnight Oil</span><span>Beds are burning</span></p>
+                <p class="spreadspan"><span className="emphasis">Neljä baritonia</span><span>Popmusiikkia</span></p>
+                <p class="spreadspan"><span className="emphasis">Alphaville</span><span>Big in Japan</span></p>
+                <p class="spreadspan"><span className="emphasis">Kenny Logins</span><span>Danger Zone</span></p>
+                <p class="spreadspan"><span className="emphasis">Dingo</span><span>Levoton tuhkimo</span></p>
+                <p class="spreadspan"><span className="emphasis">Pelle Miljoona</span><span>Tahdon rakastella sinua</span></p>
+                <p class="spreadspan"><span className="emphasis">Roxette</span><span>Sleeping in My Car</span></p>
+                <p class="spreadspan"><span className="emphasis">The Cranberries</span><span>Zombie</span></p>
+                <p class="spreadspan"><span className="emphasis">Avicii</span><span>Hey brother</span></p>
+                <p class="spreadspan"><span className="emphasis">Pink Floyd</span><span>The Wall 1&2</span></p>
             </div>
           </div>
         </div>
