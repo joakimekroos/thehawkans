@@ -40,6 +40,7 @@ p a:hover{
 .label{
   border-bottom: solid 1px #c13100;
 }
+
 @media (min-width: 768px){
   .slogan{
     font-size: 1.25rem;
@@ -53,16 +54,35 @@ img.portrait{
   height: 100%;
   width: auto;
 }
-@media (min-width: 1200px){
+@media (min-width: 768px){
+  .thehawkans-ultrawidetext{
+    font-size: .875rem;
+    column-count: 2;
+    column-gap: 18vw;
+  }
+}
+@media (min-width: 992px){
   .thehawkans-widetext{
+    column-count: 2;
+  }
+  .thehawkans-extrawidetext{
     column-count: 2;
     column-gap: 30px;
     text-align: justify;
   }
+  .thehawkans-ultrawidetext{
+    column-count: 3;
+    column-gap: 10vw;
+    text-align: justify;
+  }
+}
+@media (min-width: 1200px){
   .thehawkans-extrawidetext{
     column-count: 3;
-    column-gap: 30px;
-    text-align: justify;
+  }
+  .thehawkans-ultrawidetext{
+    /* column-count: 4; */
+    column-gap: 10vw;
   }
 }
 hr{
@@ -72,4 +92,8 @@ hr{
 }
 .embed-responsive iframe{
   background: #000;
+}
+.spreadspan{
+  display: flex;
+  justify-content: space-between;
 }
