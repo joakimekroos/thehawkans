@@ -1,14 +1,14 @@
-div.thehawkans-menu{
+div.thehawkans-menu {
   background-color: rgba(0,0,0,1.0);
 }
-div.thehawkans-menu nav.navbar{
+div.thehawkans-menu nav.navbar {
   padding-left: 0;
   padding-right: 0;
 }
-div.thehawkans-menu nav.navbar button.navbar-toggler:focus{
+div.thehawkans-menu nav.navbar button.navbar-toggler:focus {
   outline: none
 }
-div.thehawkans-menu nav.navbar li a{
+div.thehawkans-menu nav.navbar li a {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -18,25 +18,33 @@ div.thehawkans-menu nav.navbar li a{
   transition: .5s border-color;
 }
 @media (max-width: 768px){
-  div.thehawkans-menu nav.navbar ul.navbar-nav{
+  div.thehawkans-menu nav.navbar ul.navbar-nav {
     margin-top: 10px;
   }
-  div.thehawkans-menu nav.navbar li{
+  div.thehawkans-menu nav.navbar li {
     padding: 5px 0;
   }
 }
-div.thehawkans-menu nav.navbar li a:first-child{
+div.thehawkans-menu nav.navbar li a:first-child {
   margin-left: 0;
 }
-div.thehawkans-menu nav.navbar li a:hover{
-  border-color: rgba(193, 49, 0, 1);
-  transition: .2s border-color;
+div.thehawkans-menu nav.navbar li a {
+  overflow: hidden;
+  height: 30px;
+  display: block;
 }
-div.thehawkans-menu nav.navbar li a.active{
-  color: #c13100;
-  transition: .5s border-color;
+div.thehawkans-menu nav.navbar li a div.navitem-wrapper {
+  display: flex;
+  flex-direction: column;
+  transition: .2s all;
 }
-div.thehawkans-menu nav.navbar li a.active:hover{
+div.thehawkans-menu nav.navbar li a span.on {
   color: #c13100;
-  border-color: rgba(193, 49, 0, 0);
+}
+
+div.thehawkans-menu nav.navbar li a:hover .navitem-wrapper {
+  transform: translateY(-24px);
+}
+div.thehawkans-menu nav.navbar li a.active .navitem-wrapper{
+  transform: translateY(-24px);
 }
