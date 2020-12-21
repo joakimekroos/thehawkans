@@ -6,18 +6,18 @@ Deployed on [Netlify](https://www.netlify.com/).
 # The Hawkans
 
 ## Install
-```
+```sh
 git clone https://github.com/joakimekroos/thehawkans.git
 cd thehawkans
 yarn install
 ```
 
 ## Run
-```
+```sh
 yarn start
 ```
 
 ## Build bundle
-```
+```sh
 yarn build
 ```
