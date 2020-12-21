@@ -36,6 +36,8 @@ p a:hover{
 .slogan{
   font-size: 1rem;
   margin: 15px 0 45px 0;
+  color: rgba(255,255,255,.6);
+  border-bottom-color: #c13100;
 }
 .label{
   border-bottom: solid 1px #c13100;
