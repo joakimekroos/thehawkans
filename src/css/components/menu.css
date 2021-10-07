@@ -1,12 +1,12 @@
 div.thehawkans-menu {
-  background-color: rgba(0,0,0,1.0);
+  background-color: rgba(0, 0, 0, 1);
 }
 div.thehawkans-menu nav.navbar {
   padding-left: 0;
   padding-right: 0;
 }
 div.thehawkans-menu nav.navbar button.navbar-toggler:focus {
-  outline: none
+  outline: none;
 }
 div.thehawkans-menu nav.navbar li a {
   color: #fff;
@@ -15,9 +15,9 @@ div.thehawkans-menu nav.navbar li a {
   padding: 5px 0 2px 0;
   margin: auto 30px;
   border-bottom: solid 1px rgba(193, 49, 0, 0);
-  transition: .5s border-color;
+  transition: 0.5s border-color;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
   div.thehawkans-menu nav.navbar ul.navbar-nav {
     margin-top: 10px;
   }
@@ -36,7 +36,7 @@ div.thehawkans-menu nav.navbar li a {
 div.thehawkans-menu nav.navbar li a div.navitem-wrapper {
   display: flex;
   flex-direction: column;
-  transition: .2s all;
+  transition: 0.2s all;
 }
 div.thehawkans-menu nav.navbar li a span.on {
   color: #c13100;
@@ -45,6 +45,6 @@ div.thehawkans-menu nav.navbar li a span.on {
 div.thehawkans-menu nav.navbar li a:hover .navitem-wrapper {
   transform: translateY(-24px);
 }
-div.thehawkans-menu nav.navbar li a.active .navitem-wrapper{
+div.thehawkans-menu nav.navbar li a.active .navitem-wrapper {
   transform: translateY(-24px);
 }

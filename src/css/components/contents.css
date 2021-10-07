@@ -1,8 +1,8 @@
-img.logo{
+img.logo {
   max-width: 430px;
   margin-bottom: 30px;
 }
-h1{
+h1 {
   font: 1.5rem "Chivo", sans-serif;
   text-transform: uppercase;
   color: #c13100;
@@ -11,91 +11,91 @@ h1{
   white-space: nowrap;
   margin-bottom: 15px;
 }
-p{
+p {
   color: #d0d0d0;
   line-height: 1.5;
 }
-.front p{
+.front p {
   color: #fff;
   text-shadow: 1px 1px #000;
 }
-p a{
+p a {
   color: #d0d0d0;
 }
-p a:hover{
+p a:hover {
   border-bottom: solid 1px #c13100;
   color: #fff;
   text-decoration: none;
 }
-.contact p{
+.contact p {
   white-space: nowrap;
 }
-.emphasis{
+.emphasis {
   color: #c13100;
 }
-.slogan{
+.slogan {
   font-size: 1rem;
   margin: 15px 0 45px 0;
-  color: rgba(255,255,255,.6);
+  color: rgba(255, 255, 255, 0.6);
   border-bottom-color: #c13100;
 }
-.label{
+.label {
   border-bottom: solid 1px #c13100;
 }
 
-@media (min-width: 768px){
-  .slogan{
+@media (min-width: 768px) {
+  .slogan {
     font-size: 1.25rem;
   }
 }
-img{
+img {
   width: 100%;
   height: auto;
 }
-img.portrait{
+img.portrait {
   height: 100%;
   width: auto;
 }
-@media (min-width: 768px){
-  .thehawkans-ultrawidetext{
-    font-size: .875rem;
+@media (min-width: 768px) {
+  .thehawkans-ultrawidetext {
+    font-size: 0.875rem;
     column-count: 2;
     column-gap: 18vw;
   }
 }
-@media (min-width: 992px){
-  .thehawkans-widetext{
+@media (min-width: 992px) {
+  .thehawkans-widetext {
     column-count: 2;
   }
-  .thehawkans-extrawidetext{
+  .thehawkans-extrawidetext {
     column-count: 2;
     column-gap: 30px;
     text-align: justify;
   }
-  .thehawkans-ultrawidetext{
+  .thehawkans-ultrawidetext {
     column-count: 3;
     column-gap: 10vw;
     text-align: justify;
   }
 }
-@media (min-width: 1200px){
-  .thehawkans-extrawidetext{
+@media (min-width: 1200px) {
+  .thehawkans-extrawidetext {
     column-count: 3;
   }
-  .thehawkans-ultrawidetext{
+  .thehawkans-ultrawidetext {
     /* column-count: 4; */
     column-gap: 10vw;
   }
 }
-hr{
+hr {
   margin-top: 30px;
   margin-bottom: 60px;
-  border: dashed 1px rgba(255,255,255,.1);
+  border: dashed 1px rgba(255, 255, 255, 0.1);
 }
-.embed-responsive iframe{
+.embed-responsive iframe {
   background: #000;
 }
-.spreadspan{
+.spreadspan {
   display: flex;
   justify-content: space-between;
 }

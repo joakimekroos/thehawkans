@@ -1,11 +1,11 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 
-import Home from './content/Home';
-import Band from './content/Band';
-import Music from './content/Music';
-import Contact from './content/Contact';
-import NotFound from './content/NotFound';
+import Home from "./content/Home";
+import Band from "./content/Band";
+import Music from "./content/Music";
+import Contact from "./content/Contact";
+import NotFound from "./content/NotFound";
 
 const Content = () => {
   return (
@@ -16,7 +16,7 @@ const Content = () => {
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
-  )
-}
+  );
+};
 
 export default Content;
