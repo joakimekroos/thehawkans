@@ -10,11 +10,6 @@ const menuItems = [
     exact: false
   },
   {
-    path: '/music',
-    name: 'Original Material',
-    exact: false
-  },
-  {
     path: '/contact',
     name: 'Contact',
     exact: false
