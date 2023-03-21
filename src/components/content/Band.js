@@ -30,16 +30,16 @@ const Band = () =>{
             </p>
             <p>
               <small className="text-uppercase">Current members</small><br />
-              <span className="emphasis">Vocals:</span> Olli "Baumheimer" Roiha <small>(fm)</small><br />
-              <span className="emphasis">Guitar:</span> Henrik "Lethal Force" Castell <small>(fm)</small><br />
-              <span className="emphasis">Guitar:</span> Julius "Lethal Strike" Uusikylä<br />
-              <span className="emphasis">Bass:</span> Joakim "Gögu" Ekroos <small>(fm)</small><br />
-              <span className="emphasis">Drums:</span> Viktor "Massive Attack" Wolff<br />
+              <span className="emphasis">Vocals:</span> Olli Roiha, aka "Baumheimer" <small>(fm)</small><br />
+              <span className="emphasis">Guitar:</span> Henrik Castell, aka "Lethal Force" <small>(fm)</small><br />
+              <span className="emphasis">Guitar:</span> Julius Uusikylä, aka "Lethal Strike"<br />
+              <span className="emphasis">Bass:</span> Joakim Ekroos, aka "Gögu" <small>(fm)</small><br />
+              <span className="emphasis">Drums:</span> Viktor Wolff, aka "Massive Attack"<br />
             </p>
             <p>
               <small className="text-uppercase">Former members</small><br />
-              <span className="emphasis">Guitar:</span> Pekka "Täppisoolo" Tiainen <small>(fm)</small><br />
-              <span className="emphasis">Drums:</span> Johan "Top Gun" Sannholm <small>(fm)</small><br />
+              <span className="emphasis">Guitar:</span> Pekka Tiainen, aka "Täppisoolo" <small>(fm)</small><br />
+              <span className="emphasis">Drums:</span> Johan Sannholm, aka "Top Gun" <small>(fm)</small><br />
             </p>
             <p><small>fm = founding member</small></p>
           </div>
