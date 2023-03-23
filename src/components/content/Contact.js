@@ -31,8 +31,8 @@ const Contact = () =>{
               <a href="//facebook.com/thehawkans" target="_blank" rel="noopener noreferrer">facebook.com/thehawkans</a>
             </p>
             <p>
-              <span className="emphasis">soundcloud: </span>
-              <a href="//soundcloud.com/thehawkans" target="_blank" rel="noopener noreferrer">soundcloud.com/thehawkans</a>
+              <span className="emphasis">youtube: </span>
+              <a href="https://www.youtube.com/@thehawkans8298/videoss" target="_blank" rel="noopener noreferrer">The Hawkans on YouTube</a>
           </p>
             <p>
               <span className="emphasis">spotify: </span>
