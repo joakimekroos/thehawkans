@@ -1,23 +1,22 @@
 import React from 'react'
-import { Container } from 'reactstrap';
-import MetaTags from 'react-meta-tags';
+// import MetaTags from 'react-meta-tags';
 
 const Home = () =>{
   return(
     <div className="thehawkans-content front">
-      <MetaTags>
+      {/* <MetaTags>
         <title>The Hawkans</title>
         <meta name="description" content="Partyband for every occasion." />
         <meta property="og:title" content="The Hawkans | Partyband for every occasion" />
         <meta property="og:image" content="https://www.thehawkans.com/thehawkans_cover.png" />
-      </MetaTags>
-      <Container>
+      </MetaTags> */}
+      <>
         <div className="row">
           <div className="col-xs-12">
             <img
               className="logo"
               alt="The Hawkans"
-              src={require("../../images/the-hawkans-clean-full-206x306cm.png")}
+              src={require("../../../images/the-hawkans-clean-full-206x306cm.png")}
             />
           </div>
         </div>
@@ -46,7 +45,7 @@ const Home = () =>{
             </p>
           </div>
         </div>
-      </Container>
+      </>
     </div>
   )
 }
