@@ -5,7 +5,7 @@ import Content from "./TheHawkans/Content";
 import Footer from "./TheHawkans/Footer";
 
 const TheHawkans = () => (
-    <div className="thehawkans">
+    <div className="flex flex-col">
       <Menu />
       <Content />
       <Footer />
