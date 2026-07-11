@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from './router';
 import ReactGA from 'react-ga';
 
 import 'bootstrap/dist/css/bootstrap.min.css';

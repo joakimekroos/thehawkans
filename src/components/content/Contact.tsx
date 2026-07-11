@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { Container } from 'reactstrap';
 import MetaTags from 'react-meta-tags';
 
-const Contact = () =>{
-  return(
+const Contact: React.FC = () => {
+  return (
     <div className="thehawkans-content contact">
       <Container>
         <MetaTags>
@@ -33,7 +33,7 @@ const Contact = () =>{
             <p>
               <span className="emphasis">youtube: </span>
               <a href="https://www.youtube.com/@thehawkans8298/videoss" target="_blank" rel="noopener noreferrer">The Hawkans on YouTube</a>
-          </p>
+            </p>
             <p>
               <span className="emphasis">spotify: </span>
               <a href="//open.spotify.com/artist/1sz1l9exwoVnqDkrYvyLIu" target="_blank" rel="noopener noreferrer">The Hawkans on spotify</a>
@@ -42,7 +42,7 @@ const Contact = () =>{
         </div>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

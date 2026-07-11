@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { Container } from 'reactstrap';
 import MetaTags from 'react-meta-tags';
 
-const NotFound = () =>{
-  return(
+const NotFound: React.FC = () => {
+  return (
     <div className="thehawkans-content not-found">
       <MetaTags>
         <title>The Hawkans | Page not found</title>
@@ -21,7 +21,7 @@ const NotFound = () =>{
         </div>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default NotFound
+export default NotFound;

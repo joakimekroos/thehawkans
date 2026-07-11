@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch } from '../router';
 
 import Home from './content/Home';
 import Band from './content/Band';
@@ -14,7 +14,7 @@ const Content = () => {
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>
-  )
-}
+  );
+};
 
 export default Content;
