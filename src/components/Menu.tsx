@@ -1,38 +1,42 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from '../router';
 import { Container, Navbar, NavbarToggler, Collapse, Nav, NavItem } from 'reactstrap';
 
-import menuItems from '../menuItems';
+import menuItems, { MenuItem } from '../menuItems';
 
-export default class Menu extends Component{
+interface MenuState {
+  isOpen: boolean;
+  items: MenuItem[];
+}
 
-  constructor(props){
+export default class Menu extends Component<{}, MenuState> {
+  constructor(props: {}) {
     super(props);
 
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
-      items: menuItems
-    }
+      items: menuItems,
+    };
   }
 
-  toggle = function(){
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
+  toggle() {
+    this.setState((state) => ({
+      isOpen: !state.isOpen,
+    }));
   }
 
-  render(){
-    const navItems = this.state.items.map(item => (
+  render() {
+    const navItems = this.state.items.map((item) => (
       <NavItem key={item.path}>
         <NavLink
           exact={item.exact}
           to={item.path}
           activeClassName="active">
-            <div className="navitem-wrapper">
-              <span className="off">{ item.name }</span>
-              <span className="on">{ item.name }</span>
-            </div>
+          <div className="navitem-wrapper">
+            <span className="off">{item.name}</span>
+            <span className="on">{item.name}</span>
+          </div>
         </NavLink>
       </NavItem>
     ));
@@ -50,6 +54,6 @@ export default class Menu extends Component{
           </Navbar>
         </Container>
       </div>
-    )
+    );
   }
 }

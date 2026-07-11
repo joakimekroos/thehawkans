@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { Container } from 'reactstrap';
 import MetaTags from 'react-meta-tags';
 
-const Home = () =>{
-  return(
+const Home: React.FC = () => {
+  return (
     <div className="thehawkans-content front">
       <MetaTags>
         <title>The Hawkans</title>
@@ -17,14 +17,13 @@ const Home = () =>{
             <img
               className="logo"
               alt="The Hawkans"
-              src={require("../../images/the-hawkans-clean-full-206x306cm.png")}
+              src={require('../../images/the-hawkans-clean-full-206x306cm.png')}
             />
           </div>
         </div>
         <div className="row">
           <div className="col-xs-12">
-            <h1
-              className="slogan">
+            <h1 className="slogan">
               Partyband for every occasion
             </h1>
           </div>
@@ -48,7 +47,7 @@ const Home = () =>{
         </div>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
