@@ -30,9 +30,9 @@ export default class Menu extends Component<{}, MenuState> {
     const navItems = this.state.items.map((item) => (
       <NavItem key={item.path}>
         <NavLink
-          exact={item.exact}
+          end={item.end}
           to={item.path}
-          activeClassName="active">
+          className={({ isActive }) => (isActive ? 'active' : undefined)}>
           <div className="navitem-wrapper">
             <span className="off">{item.name}</span>
             <span className="on">{item.name}</span>
@@ -47,7 +47,7 @@ export default class Menu extends Component<{}, MenuState> {
           <Navbar dark expand="md">
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="mr-auto" navbar>
+              <Nav className="me-auto" navbar>
                 {navItems}
               </Nav>
             </Collapse>

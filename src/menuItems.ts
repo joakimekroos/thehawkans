@@ -1,24 +1,24 @@
 export interface MenuItem {
   path: string;
   name: string;
-  exact: boolean;
+  end: boolean;
 }
 
 const menuItems: MenuItem[] = [
   {
     path: '/',
     name: 'Home',
-    exact: true,
+    end: true,
   },
   {
     path: '/band',
     name: 'The Band & Music',
-    exact: false,
+    end: false,
   },
   {
     path: '/contact',
     name: 'Contact',
-    exact: false,
+    end: false,
   },
 ];
 
