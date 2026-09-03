@@ -8,15 +8,12 @@ declare module 'react-ga' {
   export default ReactGA;
 }
 
-declare module 'react-meta-tags' {
-  import { ComponentType, ReactNode } from 'react';
-
-  interface MetaTagsProps {
-    children?: ReactNode;
-  }
-
-  const MetaTags: ComponentType<MetaTagsProps>;
-  export default MetaTags;
+declare module '*.png' {
+  const src: string;
+  export default src;
 }
 
-declare module 'reactstrap';
+declare module '*.jpg' {
+  const src: string;
+  export default src;
+}

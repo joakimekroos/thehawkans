@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import MetaTags from 'react-meta-tags';
+import MetaTags from '../MetaTags';
 
 const NotFound: React.FC = () => {
   return (

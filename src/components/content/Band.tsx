@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import MetaTags from 'react-meta-tags';
+import MetaTags from '../MetaTags';
+import bandPhoto from '../../images/theband.jpg';
 
 const Band: React.FC = () => {
   return (
@@ -17,10 +18,10 @@ const Band: React.FC = () => {
             <img
               className=""
               alt="The Hawnaks 2017"
-              src={require('../../images/theband.jpg')}
+              src={bandPhoto}
             />
           </div>
-          <div className="col-md-7 mr-auto">
+          <div className="col-md-7 me-auto">
             <h1>The Band</h1>
             <p>
               The members of The Hawkans are from different parts of southern Finland but almost everyone now lives in Helsinki area.
@@ -47,13 +48,13 @@ const Band: React.FC = () => {
             <img
               className=""
               alt="The Hawnaks 2017"
-              src={require('../../images/theband.jpg')}
+              src={bandPhoto}
             />
           </div>
         </div>
         <hr />
         <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div className="col-12">
             <h1>Our party playlist includes</h1>
             <p><small>...but is not limited to</small></p>
             <div className="thehawkans-ultrawidetext">

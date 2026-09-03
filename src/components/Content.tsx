@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from '../router';
+import { Route, Routes } from '../router';
 
 import Home from './content/Home';
 import Band from './content/Band';
@@ -8,12 +8,12 @@ import NotFound from './content/NotFound';
 
 const Content = () => {
   return (
-    <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/band" component={Band} />
-      <Route path="/contact" component={Contact} />
-      <Route component={NotFound} />
-    </Switch>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/band" element={<Band />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 };
 

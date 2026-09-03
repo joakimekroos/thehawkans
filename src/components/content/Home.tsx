@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import MetaTags from 'react-meta-tags';
+import MetaTags from '../MetaTags';
+import logo from '../../images/the-hawkans-clean-full-206x306cm.png';
 
 const Home: React.FC = () => {
   return (
@@ -13,23 +14,23 @@ const Home: React.FC = () => {
       </MetaTags>
       <Container>
         <div className="row">
-          <div className="col-xs-12">
+          <div className="col-12">
             <img
               className="logo"
               alt="The Hawkans"
-              src={require('../../images/the-hawkans-clean-full-206x306cm.png')}
+              src={logo}
             />
           </div>
         </div>
         <div className="row">
-          <div className="col-xs-12">
+          <div className="col-12">
             <h1 className="slogan">
               Partyband for every occasion
             </h1>
           </div>
         </div>
         <div className="row">
-          <div className="col-xs-12 col-lg-8 ml-auto mr-auto thehawkans-widetext">
+          <div className="col-12 col-lg-8 ms-auto me-auto thehawkans-widetext">
             <p>
               The Hawkans is a party/cover band from Helsinki.
               We mainly play wedding, company, and student parties, and during the years we have played about 100 events.
